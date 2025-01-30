@@ -12,24 +12,25 @@
 </head>
 
 <body class="min-h-screen">
-  <div class="h-[600px] bg-headers bg-no-repeat bg-cover bg-center">
+  <div class="h-[600px] bg-headers bg-fixed bg-no-repeat bg-cover bg-center">
     <div class="absolute h-[600px] inset-0 bg-opacity-30">
       <div class="relative">
-        <nav id="navbar" class="w-[95%] py-5 mx-auto flex justify-between items-center">
-          <div class="flex gap-4 items-center">
-            <img src="img/A.png" class="h-20" alt="" />
-            <p class="text-white text-4xl">Aura Anturium</p>
+        <nav id="navbar" class="w-full py-5 px-5 flex justify-between items-center flex-wrap fixed top-0 transition-all duration-300">
+          <div class="flex gap-4 items-center w-[70%]">
+            <img src="img/logo_tnman-removebg-preview.png" class="h-20" alt="" />
+            <p class="text-white text-xl lg:text-4xl">Aura Anturium</p>
           </div>
-          <div class="flex gap-6" id="">
-            <a href="#Home" class="text-white hover:text-white text-3xl">Home</a>
-            <a href="#Blog" class="text-white hover:text-white text-3xl">Blog</a>
-            <a href="#Blog" class="text-white hover:text-white text-3xl"><i
+          <button class="lg:hidden block text-white text-2xl" id="tombol"><i class="fa-solid fa-bars"></i></button>
+          <div class="gap-5 hidden lg:flex lg:flex-row flex-col w-full lg:w-[12%] mt-6 text-center" id="Menu">
+            <a href="#Home" class="text-white hover:text-white text-xl lg:text-2xl">Home</a>
+            <a href="#Blog" class="text-white hover:text-white text-xl lg:text-2xl">Blog</a>
+            <a href="#Blog" class="text-white hover:text-white text-xl lg:text-2xl"><i
                 class="fa-solid fa-magnifying-glass"></i></a>
           </div>
         </nav>
-        <div class="h-[300px] flex justify-center items-center flex-col gap-6">
-          <h1 class="text-6xl font-bold text-white">Green Aura Anturium</h1>
-          <p class="text-gray-100 text-3xl">
+        <div class="h-[600px] flex justify-center items-center flex-col gap-6">
+          <h1 class="lg:text-6xl text-5xl font-bold text-white text-center">Green Aura Anturium</h1>
+          <p class="text-gray-100 text-2xl lg:text-3xl mx-10 text-center">
             "Setiap daun yang tumbuh adalah nafas baru untuk bumi."
           </p>
         </div>
@@ -38,9 +39,9 @@
   </div>
   <div class="w-[80%] py-10 mx-auto">
     <h2 class="font-bold text-2xl text-center">KENALI ANTURIUM GREEN AURA</h2>
-    <div class="flex items-center gap-12 mt-10">
+    <div class="flex items-center lg:flex-row flex-col gap-12 mt-10">
       <img src="img/anturium-removebg-preview.png" alt="knli anturium" class="h-[300px]">
-      <p class="text-justify text-xl">
+      <p class="text-justify text-2xl">
         Anturium "Green Aura" adalah salah satu varietas tanaman hias dari genus Anthurium, yang terkenal karena daun
         hijau besar yang mengilap dan tampilannya yang elegan. Tanaman ini sering menjadi pilihan kolektor dan pecinta
         tanaman hias karena daya tarik estetikanya yang mewah.
@@ -50,23 +51,23 @@
       </p>
     </div>
   </div>
-  <section class="py-16 bg-teal-800">
+  <section class="py-16 bg-teal-500">
     <div class="w-[80%] mx-auto">
       <h2 class="font-bold text-2xl text-white text-center mb-12">KENALI ANTURIUM GREEN AURA</h2>
-      <div class="flex justify-between gap-10">
-        <div class="flex flex-col gap-8 w-[30%]">
+      <div class="flex justify-between gap-10 flex-col lg:flex-row">
+        <div class="flex flex-col gap-8 lg:w-[30%] w-full">
           <img src="img/1.png" alt="Tanaman" class="h-[400px] rounded-lg">
           <h3 class="font-bold text-xl text-white text-center">Menambah Keindahan</h3>
           <p class=" text-xl text-white text-center">Tanaman mempercantik ruang dan lingkungan sekitar dengan warna dan
             bentuk yang menarik.</p>
         </div>
-        <div class="flex flex-col gap-8 w-[30%]">
+        <div class="flex flex-col gap-8 lg:w-[30%] w-full">
           <img src="img/Screenshot 2025-01-23 130847.png" alt="Tanaman" class="h-[400px] rounded-lg">
           <h3 class="font-bold text-xl text-white text-center">Meningkatkan Kualitas Udara</h3>
           <p class=" text-xl text-white text-center">Anthurium dapat membantu menyaring udara di dalam ruangan,
             menjadikannya pilihan tanaman hias yang bermanfaat.</p>
         </div>
-        <div class="flex flex-col gap-8 w-[30%]">
+        <div class="flex flex-col gap-8 lg:w-[30%] w-full">
           <img src="img/OK.png" alt="Tanaman" class="h-[400px] rounded-lg">
           <h3 class="font-bold text-xl text-white text-center">Keindahan Bunga</h3>
           <p class="text-xl text-white text-center">Anthurium memiliki bunga berwarna cerah dan bentuk unik yang
@@ -80,8 +81,8 @@
       <h2 class="text-2xl font-bold text-center mb-20">Nikmati keindahan alami dan kesegaran ruang Anda dengan Green
         Aura Anturium! Dapatkan tanaman hias premium ini dengan diskon eksklusif 20%! Segera perindah interior Anda
         dengan sentuhan elegan dan kesejukan yang tak tertandingi. Jangan lewatkan kesempatan ini!</h2>
-      <div class="flex justify-between gap-10">
-        <div class="flex flex-col gap-3 w-1/4">
+      <div class="flex justify-between gap-10 flex-col lg:flex-row">
+        <div class="flex flex-col gap-3 lg:w-1/4 w-full">
           <img src="img/Hucery_pink-removebg-preview.png" alt="Hucery Pink" class="h-[250px]">
           <h3 class="font-bold text-xl text-center">Hucery Pink</h3>
           <div class="flex gap-7 justify-center">
@@ -92,7 +93,7 @@
             class="w-full p-3 bg-teal-500 text-xl text-white font-bold rounded-md mt-5 gap-4 hover:bg-blue-500">Order
             Now!</button>
         </div>
-        <div class="flex flex-col gap-3 w-1/4">
+        <div class="flex flex-col gap-3 lg:w-1/4 w-full">
           <img src="img/Jemani_Golden-removebg-preview.png" alt="Jemani Golden" class="h-[250px]">
           <h3 class="font-bold text-xl text-center">Jemani Golden</h3>
           <div class="flex gap-7 justify-center">
@@ -103,7 +104,7 @@
             class="w-full p-3 bg-teal-500 text-xl text-white font-bold rounded-md mt-5 gap-4 hover:bg-blue-500">Order
             Now!</button>
         </div>
-        <div class="flex flex-col gap-3 w-1/4">
+        <div class="flex flex-col gap-3 lg:w-1/4 w-full">
           <img src="img/Jemani_Obor-removebg-preview.png" alt="Jemani Obor" class="h-[250px]">
           <h3 class="font-bold text-xl text-center">Jemani Obor</h3>
           <div class="flex gap-7 justify-center">
@@ -114,7 +115,7 @@
             class="w-full p-3 bg-teal-500 text-xl text-white font-bold rounded-md mt-5 gap-4 hover:bg-blue-500">Order
             Now!</button>
         </div>
-        <div class="flex flex-col gap-3 w-1/4">
+        <div class="flex flex-col gap-3 lg:w-1/4 w-full">
           <img src="img/Jaguar-removebg-preview.png" alt="Jemani Jaguar" class="h-[250px]">
           <h3 class="font-bold text-xl text-center">Jemani Jaguar</h3>
           <div class="flex gap-7 justify-center">
@@ -132,24 +133,24 @@
   <section class="py-16 bg-teal-900">
     <div class="w-[80%] mx-auto">
       <h2 class="font-bold text-2xl text-white text-center mb-12">Testimoni Pembeli</h2>
-      <div class="flex justify-between gap-10">
-        <div class="flex flex-col gap-10 w-[30%]">
-          <img src="img/Gambar.jpg" alt="Pelanggan 1" class="h-[400px] rounded-lg">
+      <div class="flex justify-between gap-10 flex-col lg:flex-row">
+        <div class="flex flex-col gap-10 lg:w-[30%] w-full">
+          <img src="https://i.pinimg.com/736x/4b/8f/ba/4b8fba9c067729dcae327e1266d6935c.jpg" alt="Pelanggan 1" class="h-[400px] rounded-lg">
           <h3 class="font-bold text-xl text-white text-center">Hilmi, Jakarta</h3>
           <p class=" text-xl text-white text-center">"Saya sangat senang dengan tanaman hias yang saya beli di sini!
             Daunnya segar, rimbun, dan terlihat sangat terawat. Selain itu, kemasannya juga sangat aman sehingga tidak
             ada kerusakan selama pengiriman. Tanaman ini membuat ruangan saya jadi lebih hidup dan asri!"</p>
         </div>
-        <div class="flex flex-col gap-10 w-[30%]">
-          <img src="img/Hiu.jpg" alt="Pelanggan 2"
+        <div class="flex flex-col gap-10 lg:w-[30%] w-full">
+          <img src="https://i.pinimg.com/736x/49/41/9a/49419ae1d14f5705333e50abd46b2443.jpg" alt="Pelanggan 2"
             class="h-[400px] rounded-lg">
           <h3 class="font-bold text-xl text-white text-center">Rangga, Bandung</h3>
           <p class=" text-xl text-white text-center">"Tanaman hias dari toko ini benar-benar berkualitas tinggi. Saya
             membeli monstera, dan ukurannya lebih besar dari yang saya bayangkan. Harganya juga sangat terjangkau untuk
             kualitas sebagus ini. Pastinya saya akan beli lagi di sini!"</p>
         </div>
-        <div class="flex flex-col gap-10 w-[30%]">
-          <img src="img/anime.jpg" alt="Pelanggan 3"
+        <div class="flex flex-col gap-10 lg:w-[30%] w-full">
+          <img src="https://i.pinimg.com/736x/76/59/fe/7659fecc0c355d3b66050bcb74f993b5.jpg" alt="Pelanggan 3"
             class="h-[400px] rounded-lg">
           <h3 class="font-bold text-xl text-white text-center">Qeis, Surabaya</h3>
           <p class="text-xl text-white text-center">"Saya baru pertama kali mencoba membeli tanaman hias secara online,
@@ -161,7 +162,7 @@
   </section>
 
   <section class="py-16 bg-black">
-    <div class="w-[80%] mx-auto flex justify-between">
+    <div class="w-[80%] mx-auto flex justify-between flex-col lg:flex-row gap-10">
       <div class="flex flex-col gap-5">
         <h4 class="text-2xl font-bold text-white">Green Aura Anturium</h4>
         <div class="flex gap-4 items-center text-xl text-white">
@@ -185,14 +186,16 @@
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.910768525503!2d107.18131111020007!3d-6.275462293712379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6984baf3f61f39%3A0xd85e77c5a815d69d!2sGraha%20Astra!5e0!3m2!1sid!2sid!4v1737605463762!5m2!1sid!2sid"
-          class="h-[200px] w-[450px]" style="border:0;" allowfullscreen="" loading="lazy"
+          class="lg:h-[200px] w-full w-[450px]" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
 
       </div>
   </section>
-  <footer class="text-center bg-black py-10 text-white text-3xl">
-    &copy; 2022 Green Aura. All rights reserved.
+  <footer class="text-center bg-black py-10 text-white text-3xl flex flex-col lg:flex-row">
+    &copy; 2025 Green Aura. All rights reserved.
   </footer>
+
+  <script src="Main.js"></script>
 </body>
 
 </html>
